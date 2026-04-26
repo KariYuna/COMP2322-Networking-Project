@@ -184,7 +184,7 @@ def handle_http_request(conn, client_ip, client_hostname, raw_request):
     Returns True  -> keep the connection alive (persistent connection)
              False -> close the connection after this response
     """
-    time.sleep(10)  # It gives you 10 seconds to run the second command.
+    # time.sleep(10)  # It gives you 10 seconds to run the second command.
 
     # ── Stage 1: display raw request ─────────────────────────────────────────
     separator = '-' * 60
